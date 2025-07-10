@@ -1,0 +1,92 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "Complete Jane Street Trade Reconstruction",
+    "data_source": "SEBI Order July 3, 2025 - Complete PDF Analysis",
+    "validation_status": "PASSED - 100% SEBI Mathematical Accuracy",
+    "creation_date": "2025-07-11T01:35:50.202659",
+    "total_charts_generated": 6
+  },
+  "sebi_core_metrics": {
+    "total_illegal_gains_cr": 4843.58,
+    "manipulation_days": 21,
+    "jan17_peak_profit_cr": 734.93,
+    "jan17_manipulation_cost_cr": 61.6,
+    "jan17_net_profit_cr": 673.33,
+    "jan17_options_exposure_cr": 32114.96,
+    "jan17_phase1_deployment_cr": 4370.03,
+    "jan17_phase2_liquidation_cr": 5372.12,
+    "manipulation_roi_pct": 1093.1,
+    "options_leverage_ratio": 7.3,
+    "banknifty_open": 46573.95,
+    "banknifty_high": 47212.75,
+    "banknifty_low": 45979.6,
+    "banknifty_close": 46064.45,
+    "prev_close": 48125.1
+  },
+  "mathematical_validation": {
+    "phase1_calculation": {
+      "cash_total": 1851.59,
+      "futures_total": 2518.47,
+      "calculated_total": 4370.0599999999995,
+      "sebi_reported": 4370.03,
+      "difference": 0.02999999999974534,
+      "validation_passed": true
+    },
+    "roi_calculation": {
+      "calculated_roi": 1093.0681818181818,
+      "sebi_reported": 1093.1,
+      "difference": 0.03181818181815288,
+      "validation_passed": true
+    },
+    "leverage_calculation": {
+      "calculated_leverage": 7.348910648210653,
+      "sebi_reported": 7.3,
+      "difference": 0.048910648210653385,
+      "validation_passed": true
+    }
+  },
+  "trade_sequence_analysis": {
+    "phase1_cash_total_cr": 1851.59,
+    "phase1_futures_total_cr": 2518.47,
+    "total_trades_executed": 235039,
+    "avg_market_dominance_pct": 20.916363636363634,
+    "total_ltp_manipulation": 11509.9
+  },
+  "critical_window_analysis": {
+    "window_duration_minutes": 8,
+    "total_investment_cr": 572,
+    "investment_intensity_cr_per_minute": 71.5,
+    "hdfc_total_impact": 51.85,
+    "icici_total_impact": 102.05
+  },
+  "options_strategy_metrics": {
+    "total_options_exposure_cr": 32114.96,
+    "leverage_ratio": 7.3,
+    "bearish_positioning": true,
+    "delta_exposure_peak_cr": 46620.79,
+    "delta_exposure_final_cr": 24884.63
+  },
+  "profit_attribution": {
+    "total_options_profit_cr": 734.93,
+    "underlying_loss_cr": 61.6,
+    "net_profit_cr": 673.33,
+    "roi_percentage": 1093.1
+  },
+  "market_impact_assessment": {
+    "banknifty_open": 46573.95,
+    "banknifty_high": 47212.75,
+    "banknifty_close": 46064.45,
+    "artificial_rise_points": 638.8000000000029,
+    "total_manipulation_points": 1148.300000000003,
+    "retail_traders_affected": 1600000,
+    "market_integrity_impact": "SEVERE"
+  },
+  "regulatory_findings": {
+    "total_illegal_gains_cr": 4843.58,
+    "manipulation_days": 21,
+    "detection_lag_days": 525,
+    "enforcement_action": "DISGORGEMENT_ORDERED",
+    "market_ban_status": "ACTIVE",
+    "precedent_significance": "LARGEST_INDIAN_HISTORY"
+  }
+}
